@@ -50,15 +50,3 @@ macOS, Linux, or Windows (via [WSL](https://msdn.microsoft.com/en-us/commandline
 To start it, type `joplin`.
 
 For usage information, please refer to the full [Joplin Terminal Application Documentation](https://joplinapp.org/terminal/).
-
-## Web Clipper
-
-The Web Clipper is a browser extension that allows you to save web pages and screenshots from your browser. For more information on how to install and use it, see the [Web Clipper Help Page](https://github.com/laurent22/joplin/blob/dev/readme/clipper.md).
-
-## Unofficial Alternative Distributions
-
-There are a number of unofficial alternative Joplin distributions. If you do not want to or cannot use appimages or any of the other officially supported releases then you may wish to consider these.
-
-However these come with a caveat in that they are not officially supported so certain issues may not be supportable by the main project. Rather support requests, bug reports and general advice would need to go to the maintainers of these distributions.
-
-A community maintained list of these distributions can be found here: [Unofficial Joplin distributions](https://discourse.joplinapp.org/t/unofficial-alternative-joplin-distributions/23703)
