@@ -19,34 +19,3 @@ The application is available for Windows, Linux, macOS, Android and iOS. A [Web 
 # Installation
 
 Three types of applications are available: for **desktop** (Windows, macOS and Linux), for **mobile** (Android and iOS) and for **terminal** (Windows, macOS, Linux and FreeBSD). All the applications have similar user interfaces and can synchronise with each other.
-
-## Desktop applications
-
-Operating System | Download
----|---
-Windows (32 and 64-bit) | <a href='https://github.com/laurent22/joplin/releases/download/v2.9.17/Joplin-Setup-2.9.17.exe'><img alt='Get it on Windows' width="134px" src='https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/BadgeWindows.png'/></a>
-macOS | <a href='https://github.com/laurent22/joplin/releases/download/v2.9.17/Joplin-2.9.17.dmg'><img alt='Get it on macOS' width="134px" src='https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/BadgeMacOS.png'/></a>
-Linux | <a href='https://github.com/laurent22/joplin/releases/download/v2.9.17/Joplin-2.9.17.AppImage'><img alt='Get it on Linux' width="134px" src='https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/BadgeLinux.png'/></a>
-
-**On Windows**, you may also use the <a href='https://github.com/laurent22/joplin/releases/download/v2.9.17/JoplinPortable.exe'>Portable version</a>. The [portable application](https://en.wikipedia.org/wiki/Portable_application) allows installing the software on a portable device such as a USB key. Simply copy the file JoplinPortable.exe in any directory on that USB key ; the application will then create a directory called "JoplinProfile" next to the executable file.
-
-**On Linux**, the recommended way is to use the following installation script as it will handle the desktop icon too:
-
-<pre><code style="word-break: break-all">wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash</code></pre>
-
-## Mobile applications
-
-Operating System | Download | Alt. Download
----|---|---
-Android | <a href='https://play.google.com/store/apps/details?id=net.cozic.joplin&utm_source=GitHub&utm_campaign=README&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' height="40px" src='https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/BadgeAndroid.png'/></a> | or download the APK file: [64-bit](https://github.com/laurent22/joplin-android/releases/download/android-v2.9.8/joplin-v2.9.8.apk) [32-bit](https://github.com/laurent22/joplin-android/releases/download/android-v2.9.8/joplin-v2.9.8-32bit.apk)
-iOS | <a href='https://itunes.apple.com/us/app/joplin/id1315599797'><img alt='Get it on the App Store' height="40px" src='https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/BadgeIOS.png'/></a> | -
-
-## Terminal application
-
-Operating system | Method
------------------|----------------
-macOS, Linux, or Windows (via [WSL](https://msdn.microsoft.com/en-us/commandline/wsl/faq?f=255&MSPPError=-2147217396)) | **Important:** First, [install Node 12+](https://nodejs.org/en/download/package-manager/).<br/><br/>`NPM_CONFIG_PREFIX=~/.joplin-bin npm install -g joplin`<br/>`sudo ln -s ~/.joplin-bin/bin/joplin /usr/bin/joplin`<br><br>By default, the application binary will be installed under `~/.joplin-bin`. You may change this directory if needed. Alternatively, if your npm permissions are setup as described [here](https://docs.npmjs.com/getting-started/fixing-npm-permissions#option-2-change-npms-default-directory-to-another-directory) (Option 2) then simply running `npm -g install joplin` would work.
-
-To start it, type `joplin`.
-
-For usage information, please refer to the full [Joplin Terminal Application Documentation](https://joplinapp.org/terminal/).
