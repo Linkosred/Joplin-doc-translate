@@ -6,7 +6,7 @@ Joplin est une application gratuite et open source de prise de notes et de tâch
 
 Les notes [peuvent être exportées](#importing) depuis Evernote dans Joplin, y compris le contenu formaté (qui est converti en Markdown), les ressources (images, pièces jointes, etc.) et les métadonnées complètes (géolocalisation, heure de mise à jour,heure de création, etc.). Les fichiers Markdown simples peuvent également être importés.
 
-Les notes peuvent être  [synchronisées ](#synchronisation) en toute sécurité grâce [à un cryptage de bout en bout](#encryption)avec divers services cloud, notamment Nextcloud, Dropbox, OneDrive et [Joplin Cloud](https://joplinapp.org/plans/).
+Les notes peuvent être  [synchronisées ](#synchronisation) en toute sécurité grâce [à un cryptage de bout en bout](#encryption) avec divers services cloud, notamment Nextcloud, Dropbox, OneDrive et [Joplin Cloud](https://joplinapp.org/plans/).
 
 La recherche de texte est disponible sur toutes les plateformes pour trouver rapidement les informations dont vous avez besoin. L'application peut être personnalisée à l'aide de plugins et thèmes, et vous pouvez également créer facilement les vôtres.
 
