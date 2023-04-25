@@ -1,6 +1,6 @@
 [![Donnner avec Paypal](https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/badges/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=E8JMYD2LQ8MMA&lc=GB&item_name=Joplin+Development&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted) [![Sponsoriser sur GitHub](https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/badges/GitHub-Badge.svg)](https://github.com/sponsors/laurent22/)[![Devenez un patreon](https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/badges/Patreon-Badge.svg)](https://www.patreon.com/joplin)[![Donner avec un IBAN](https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/badges/Donate-IBAN.svg)](https://joplinapp.org/donate/#donations)
 
-<img width="64" src="https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/LinuxIcons/256x256.png" align="left" class="jop-noMdConv">
+<div class="top-screenshot"><img src="https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/home-top-img.png" style="max-width: 100%; max-height: 35em;"></div>
 
 Joplin est une application gratuite et open source de prise de notes et de tâches, qui peut gérer un grand nombre de notes organisées en cahiers. Les notes sont consultables, peuvent être copiées, étiquetées et modifiées directement depuis les applications ou depuis votre propre éditeur de texte. Les notes sont au format  [Markdown.](#markdown)
 
@@ -31,7 +31,7 @@ Trois types d'applications sont disponibles : pour **desktop** (Windows, macOS e
 **Sous Linux**, la méthode recommandée consiste à utiliser le script d'installation suivant car il gérera également l'icône du bureau :
 
 ```
-<code style="word-break: break-all;">wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash</code>
+wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_and_update.sh | bash
 ```
 
 ## Application mobile
