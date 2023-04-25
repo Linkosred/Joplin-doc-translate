@@ -1,8 +1,6 @@
 [![Donnner avec Paypal](https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/badges/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=E8JMYD2LQ8MMA&lc=GB&item_name=Joplin+Development&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted) [![Sponsoriser sur GitHub](https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/badges/GitHub-Badge.svg)](https://github.com/sponsors/laurent22/) [![Devenez un patreon](https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/badges/Patreon-Badge.svg)](https://www.patreon.com/joplin) [![Donner avec un IBAN](https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/badges/Donate-IBAN.svg)](https://joplinapp.org/donate/#donations)
 
-<div class="top-screenshot"><img src="https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/home-top-img.png" style="max-width: 100%; max-height: 35em;"></div>
-
-Joplin est une application gratuite et open source de prise de notes et de tâches, qui peut gérer un grand nombre de notes organisées en cahiers. Les notes sont consultables, peuvent être copiées, étiquetées et modifiées directement depuis les applications ou depuis votre propre éditeur de texte. Les notes sont au format  [Markdown.](#markdown)
+<img width="64" src="https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/LinuxIcons/256x256.png" align="left" /> **Joplin** est une application gratuite et open source de prise de notes et de tâches, qui peut gérer un grand nombre de notes organisées en cahiers. Les notes sont consultables, peuvent être copiées, étiquetées et modifiées directement depuis les applications ou depuis votre propre éditeur de texte. Les notes sont au format  [Markdown.](#markdown)
 
 Les notes [peuvent être exportées](#importing) depuis Evernote dans Joplin, y compris le contenu formaté (qui est converti en Markdown), les ressources (images, pièces jointes, etc.) et les métadonnées complètes (géolocalisation, heure de mise à jour,heure de création, etc.). Les fichiers Markdown simples peuvent également être importés.
 
@@ -12,7 +10,7 @@ La recherche de texte est disponible sur toutes les plateformes pour trouver rap
 
 L'application est disponible sur Windows, Linux, macOS, Android et iOS. Un [Web Clipper](https://github.com/laurent22/joplin/blob/dev/readme/clipper.md), pour enregistrer les pages Web et les captures d'écran de votre navigateur, est également disponible pour [Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper/) et [Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek?hl=en-GB).
 
-<div class="top-screenshot">!\[\](https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/home-top-img.png)</div>
+<div class="top-screenshot"><img src="https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/home-top-img.png" style="max-width: 100%; max-height: 35em;"></div>
 
 # Installation
 
