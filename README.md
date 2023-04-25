@@ -47,7 +47,7 @@ wget -O - https://raw.githubusercontent.com/laurent22/joplin/dev/Joplin_install_
 
 Pour le démarrer, tapez `joplin`.
 
-Pour plus d'informations sur l'utilisation, reportez-vous à la [documentation complète de l'application du terminal Joplin](https://joplinapp.org/terminal/).
+Pour plus d'informations sur l'utilisation, reportez-vous à la [documentation complète de l'application pour terminal Joplin](https://joplinapp.org/terminal/).
 
 ## Web Clipper
 
