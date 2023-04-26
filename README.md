@@ -1,6 +1,6 @@
 [![Donnner avec Paypal](https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/badges/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=E8JMYD2LQ8MMA&lc=GB&item_name=Joplin+Development&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted) [![Sponsoriser sur GitHub](https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/badges/GitHub-Badge.svg)](https://github.com/sponsors/laurent22/) [![Devenez un patreon](https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/badges/Patreon-Badge.svg)](https://www.patreon.com/joplin) [![Donner avec un IBAN](https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/badges/Donate-IBAN.svg)](https://joplinapp.org/donate/#donations)
 
-<img width="64" src="https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/LinuxIcons/256x256.png" align="left" /> **Joplin** est une application gratuite et open source de prise de notes et de tâches, qui peut gérer un grand nombre de notes organisées en cahiers. Les notes sont consultables, peuvent être copiées, étiquetées et modifiées directement depuis les applications ou depuis votre propre éditeur de texte. Les notes sont au format  [Markdown.](#markdown)
+<img width="64" src="https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/LinuxIcons/256x256.png" align="left" /> **Joplin** est une application gratuite et open source de prise de notes et de tâches, qui peut gérer un grand nombre de notes organisées en carnets. Les notes sont consultables, peuvent être copiées, étiquetées et modifiées directement depuis les applications ou depuis votre propre éditeur de texte. Les notes sont au format  [Markdown.](#markdown)
 
 Les notes [peuvent être exportées](#importing) depuis Evernote dans Joplin, y compris le contenu formaté (qui est converti en Markdown), les ressources (images, pièces jointes, etc.) et les métadonnées complètes (géolocalisation, heure de mise à jour,heure de création, etc.). Les fichiers Markdown simples peuvent également être importés.
 
@@ -95,7 +95,7 @@ Une liste communautaire de ces distributions peut être trouvée ici : [Distribu
     - [FAQ](https://github.com/laurent22/joplin/blob/dev/readme/faq.md)
 - Joplin Cloud
     
-    - [Partager un cahier](https://github.com/laurent22/joplin/blob/dev/readme/share_notebook.md)
+    - [Partager un carnet](https://github.com/laurent22/joplin/blob/dev/readme/share_notebook.md)
     - [Publier une note](https://github.com/laurent22/joplin/blob/dev/readme/publish_note.md)
 - Joplin API - Premier pas
     
@@ -150,7 +150,7 @@ Une liste communautaire de ces distributions peut être trouvée ici : [Distribu
 - Hors ligne d'abord, de sorte que toutes les données sont toujours disponibles sur l'appareil, même sans connexion Internet.
 - Importez des fichiers Enex (format d'exportation Evernote) et des fichiers Markdown.
 - Exportez des fichiers JEX (format Joplin Export) et des fichiers bruts.
-- Prenez en charge les notes, les tâches, les balises et les cahiers.
+- Prenez en charge les notes, les tâches, les balises et les carnets.
 - Triez les notes selon plusieurs critères - titre, heure de mise à jour, etc.
 - Prise en charge des alarmes (notifications) dans les applications mobiles et de bureau.
 - Notes Markdown, qui sont rendues avec des images et une mise en forme dans les applications de bureau et mobiles. Prise en charge de fonctionnalités supplémentaires telles que la notation mathématique et les cases à cocher.
@@ -181,9 +181,9 @@ Joplin a été conçu comme une solution alternative à Evernote et peut donc im
 
 Pour importer des données Evernote, exportez d'abord vos carnets Evernote vers des fichiers ENEX comme décrit [ici](https://help.evernote.com/hc/en-us/articles/209005557-How-to-back-up-export-and-restore-import-notes-and-notebooks). Suivez ensuite ces étapes :
 
-Dans l'**application de bureau**, ouvrez Fichier > Importer > ENEX et sélectionnez votre fichier. Les notes seront importées dans un nouveau cahier séparé. Si nécessaire, ils peuvent ensuite être déplacés vers un autre bloc-notes, ou le bloc-notes peut être renommé, etc.
+Dans l'**application de bureau**, ouvrez Fichier > Importer > ENEX et sélectionnez votre fichier. Les notes seront importées dans un nouveau carnet séparé. Si nécessaire, ils peuvent ensuite être déplacés vers un autre bloc-notes, ou le bloc-notes peut être renommé, etc.
 
-Dans l'**application pour terminal**, en [mode ligne de commande](https://github.com/laurent22/joplin/blob/dev/readme/terminal.md#command-line-mode), tapez `import /path/to/file.enex`. Cela importera les notes dans un nouveau cahier nommé d'après le nom du fichier.
+Dans l'**application pour terminal**, en [mode ligne de commande](https://github.com/laurent22/joplin/blob/dev/readme/terminal.md#command-line-mode), tapez `import /path/to/file.enex`. Cela importera les notes dans un nouveau carnet nommé d'après le nom du fichier.
 
 ## Importation à partir de fichiers Markdown
 
@@ -207,12 +207,12 @@ En général, la façon d'importer des notes de n'importe quelle application dan
 
 # Exportation
 
-Joplin peut exporter au format JEX (fichier d'exportation Joplin), qui est un fichier tar pouvant contenir plusieurs notes, cahiers, etc. Il s'agit d'un format sans perte dans la mesure où toutes les notes, mais également des métadonnées telles que la géolocalisation, l'heure de mise à jour , balises, etc. sont conservés. Ce format est pratique à des fins de sauvegarde et peut être réimporté dans Joplin. Un format "brut" est également disponible. C'est le même que le format JEX sauf que les données sont enregistrées dans un répertoire et chaque élément représenté par un seul fichier.
-Joplin est également capable d'exporter vers un certain nombre d'autres formats, y compris HTML et PDF, ce qui peut être fait pour des notes simples, des cahiers ou tout.
+Joplin peut exporter au format JEX (fichier d'exportation Joplin), qui est un fichier tar pouvant contenir plusieurs notes, carnets, etc. Il s'agit d'un format sans perte dans la mesure où toutes les notes, mais également des métadonnées telles que la géolocalisation, l'heure de mise à jour , balises, etc. sont conservés. Ce format est pratique à des fins de sauvegarde et peut être réimporté dans Joplin. Un format "brut" est également disponible. C'est le même que le format JEX sauf que les données sont enregistrées dans un répertoire et chaque élément représenté par un seul fichier.
+Joplin est également capable d'exporter vers un certain nombre d'autres formats, y compris HTML et PDF, ce qui peut être fait pour des notes simples, des carnets ou tout.
 
 # Synchronisation
 
-L'un des objectifs de Joplin est d'éviter d'être lié à une entreprise ou à un service en particulier, qu'il s'agisse d'Evernote, de Google ou de Microsoft. En tant que telle, la synchronisation est conçue sans aucune dépendance matérielle à un service particulier. La majeure partie du processus de synchronisation se fait à un niveau abstrait et l'accès à des services externes, tels que Nextcloud ou Dropbox, se fait via des pilotes légers. Il est facile de prendre en charge de nouveaux services en créant des pilotes simples qui fournissent une interface de type système de fichiers, c'est-à-dire la possibilité de lire, d'écrire, de supprimer et de lister des éléments. Il est également simple de passer d'un service à un autre ou même de synchroniser plusieurs services à la fois. Chaque note, cahier, balises, ainsi que la relation entre les éléments sont transmis sous forme de fichiers texte lors de la synchronisation, ce qui signifie que les données peuvent également être déplacées vers une application différente,
+L'un des objectifs de Joplin est d'éviter d'être lié à une entreprise ou à un service en particulier, qu'il s'agisse d'Evernote, de Google ou de Microsoft. En tant que telle, la synchronisation est conçue sans aucune dépendance matérielle à un service particulier. La majeure partie du processus de synchronisation se fait à un niveau abstrait et l'accès à des services externes, tels que Nextcloud ou Dropbox, se fait via des pilotes légers. Il est facile de prendre en charge de nouveaux services en créant des pilotes simples qui fournissent une interface de type système de fichiers, c'est-à-dire la possibilité de lire, d'écrire, de supprimer et de lister des éléments. Il est également simple de passer d'un service à un autre ou même de synchroniser plusieurs services à la fois. Chaque note, carnet, balises, ainsi que la relation entre les éléments sont transmis sous forme de fichiers texte lors de la synchronisation, ce qui signifie que les données peuvent également être déplacées vers une application différente,
 
 Actuellement, la synchronisation est possible avec Nextcloud, WebDAV, Dropbox, OneDrive ou le système de fichiers local. Pour activer la synchronisation, veuillez suivre les instructions ci-dessous. Après cela, l'application se synchronisera en arrière-plan chaque fois qu'elle est en cours d'exécution, ou vous pouvez cliquer sur "Synchroniser" pour démarrer une synchronisation manuellement. Joplin se synchronisera automatiquement en arrière-plan après toute modification de contenu effectuée sur l'application locale.
 
@@ -258,7 +258,7 @@ Services compatibles WebDAV connus pour fonctionner avec Joplin :
 
 ##  Synchronisation Dropbox
 
-Lors de la synchronisation avec Dropbox, Joplin crée un sous-répertoire dans Dropbox, dans /Apps/Joplinet lit/écrit les notes et les cahiers qu'il contient. L'application n'a accès à rien en dehors de ce répertoire.
+Lors de la synchronisation avec Dropbox, Joplin crée un sous-répertoire dans Dropbox, dans /Apps/Joplinet lit/écrit les notes et les carnets qu'il contient. L'application n'a accès à rien en dehors de ce répertoire.
 
 Dans l'**application de bureau** ou l**application mobile** , sélectionnez "Dropbox" comme cible de synchronisation dans [l'écran de configuration](https://github.com/laurent22/joplin/blob/dev/readme/config_screen.md) (c'est sélectionné par défaut). Ensuite, pour lancer le processus de synchronisation, cliquez sur le bouton "Synchroniser" dans la barre latérale et suivez les instructions.
 
@@ -266,7 +266,7 @@ Dans l' **application terminal**, pour lancer le processus de synchronisation, t
 
 ## Synchronisation OneDrive
 
-Lors de la synchronisation avec OneDrive, Joplin crée un sous-répertoire dans OneDrive, dans /Apps/Joplin et lit/écrit les notes et les cahiers qu'il contient. L'application n'a accès à rien en dehors de ce répertoire.
+Lors de la synchronisation avec OneDrive, Joplin crée un sous-répertoire dans OneDrive, dans /Apps/Joplin et lit/écrit les notes et les carnets qu'il contient. L'application n'a accès à rien en dehors de ce répertoire.
 
 Dans l'**application de bureau** ou l**application mobile** sélectionnez "OneDrive" comme cible de synchronisation dans [l'écran de configuration](https://github.com/laurent22/joplin/blob/dev/readme/config_screen.md).  Ensuite, pour lancer le processus de synchronisation, cliquez sur le bouton "Synchroniser" dans la barre latérale et suivez les instructions.
 
@@ -338,7 +338,7 @@ Si vous fournissez une configuration et que vous recevez "succès !" sur "vérif
 
 # Chiffrement
 
-Joplin prend en charge le chiffrement de bout en bout (E2EE) sur toutes les applications. E2EE est un système où seul le propriétaire des notes, cahiers, tags ou ressources peut les lire. Il empêche les espions potentiels, y compris les fournisseurs de télécommunications, les fournisseurs d'accès Internet et même les développeurs de Joplin, d'accéder aux données. Veuillez consulter le [didacticiel sur le chiffrement de bout en bout](https://github.com/laurent22/joplin/blob/dev/readme/e2ee.md) pour plus d'informations sur cette fonctionnalité et comment l'activer.
+Joplin prend en charge le chiffrement de bout en bout (E2EE) sur toutes les applications. E2EE est un système où seul le propriétaire des notes, carnets, tags ou ressources peut les lire. Il empêche les espions potentiels, y compris les fournisseurs de télécommunications, les fournisseurs d'accès Internet et même les développeurs de Joplin, d'accéder aux données. Veuillez consulter le [didacticiel sur le chiffrement de bout en bout](https://github.com/laurent22/joplin/blob/dev/readme/e2ee.md) pour plus d'informations sur cette fonctionnalité et comment l'activer.
 
 Pour une description plus technique, principalement pertinente pour le développement ou pour revoir la méthode utilisée, veuillez consulter la [spécification du chiffrement](https://github.com/laurent22/joplin/blob/dev/readme/spec/e2ee.md).
 
@@ -382,9 +382,9 @@ Sur mobile, les alarmes seront affichées à l'aide du système de notification 
 
 Si pour une raison quelconque les notifications ne fonctionnent pas, veuillez [ouvrir un ticket](https://github.com/laurent22/joplin/issues).
 
-# Sous-cahiers
+# Sous-carnets
 
-Les sous-blocs-notes permettent d'organiser plusieurs blocs-notes dans une arborescence de blocs-notes. Par exemple, il peut être utilisé pour regrouper tous les cahiers liés au travail, à la famille ou à un projet particulier sous un cahier parent.
+Les sous-blocs-notes permettent d'organiser plusieurs blocs-notes dans une arborescence de blocs-notes. Par exemple, il peut être utilisé pour regrouper tous les carnets liés au travail, à la famille ou à un projet particulier sous un carnet parent.
 
 ![](https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/SubNotebooks.png)
 
@@ -442,7 +442,7 @@ Les notes sont triées par "pertinence". Actuellement, cela signifie que les not
 
 # Retrouvez toutes vos notes facilement
 
-Dans l'application de bureau, appuyez sur <kbd>Ctrl+P</kbd> ou <kbd>Cmd+P</kbd> et saisissez un titre de note ou une partie de son contenu pour y accéder. Ou tapez <kbd>#</kbd> suivi d'un nom de balise ou <kbd>@</kbd> suivi d'un nom de cahier.
+Dans l'application de bureau, appuyez sur <kbd>Ctrl+P</kbd> ou <kbd>Cmd+P</kbd> et saisissez un titre de note ou une partie de son contenu pour y accéder. Ou tapez <kbd>#</kbd> suivi d'un nom de balise ou <kbd>@</kbd> suivi d'un nom de carnet.
 
 # Prise en charge de plusieurs profils
 
