@@ -81,7 +81,7 @@ Une liste communautaire de ces distributions peut être trouvée ici : [Distribu
     
     - [Application bureau](https://github.com/laurent22/joplin/blob/dev/readme/desktop.md)
     - [Application mobile](https://github.com/laurent22/joplin/blob/dev/readme/mobile.md)
-    - [Application terminale](https://github.com/laurent22/joplin/blob/dev/readme/terminal.md)
+    - [Application terminal](https://github.com/laurent22/joplin/blob/dev/readme/terminal.md)
     - [Web Clipper](https://github.com/laurent22/joplin/blob/dev/readme/clipper.md)
 - Support
     
