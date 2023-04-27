@@ -1,5 +1,7 @@
 # Application mobile
 
-<img src="https://raw.githubusercontent.com/laurent22/joplin/dev/Assets/WebsiteAssets/images/DemoMobile.jpg" style="width: 100%" />
+<img src="https://github.com/Linkosred/Joplin-FR/blob/main/readme/asset/DemoMobileFR.jpg" style="width: 100%" />
 
 Les applications Android et iOS (iPhone/iPad) sont disponibles depuis [La page de téléchargement Joplin](https://joplinapp.org/download/).
+
+https://github.com/Linkosred/Joplin-FR/blob/main/readme/asset/DemoMobileFR.jpg
