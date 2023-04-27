@@ -79,24 +79,24 @@ Une liste communautaire de ces distributions peut être trouvée ici : [Distribu
 
 - Applications
     
-    - [Application bureau](https://github.com/laurent22/joplin/blob/dev/readme/desktop.md)
-    - [Application mobile](https://github.com/laurent22/joplin/blob/dev/readme/mobile.md)
+    - [Application bureau](https://github.com/Linkosred/Joplin-FR/blob/main/readme/Application%20bureau.md)
+    - [Application mobile](https://github.com/Linkosred/Joplin-FR/blob/main/readme/Application%20mobile.md)
     - [Application terminal](https://github.com/laurent22/joplin/blob/dev/readme/terminal.md)
-    - [Web Clipper](https://github.com/laurent22/joplin/blob/dev/readme/clipper.md)
+    - [Web Clipper](https://github.com/Linkosred/Joplin-FR/blob/main/readme/Web%20clipper.md)
 - Support
     
     - [Joplin Forum](https://discourse.joplinapp.org)
-    - [Guide Markdown](https://github.com/laurent22/joplin/blob/dev/readme/markdown.md)
-    - [Comment activer le chiffrement de bout en bout](https://github.com/laurent22/joplin/blob/dev/readme/e2ee.md)
-    - [Qu'est-ce qu'un conflit ?](https://github.com/laurent22/joplin/blob/dev/readme/conflict.md)
-    - [Comment activer le mode débogage](https://github.com/laurent22/joplin/blob/dev/readme/debugging.md)
-    - [À propos des limites de l'éditeur de texte Rich Text](https://github.com/laurent22/joplin/blob/dev/readme/rich_text_editor.md)
-    - [Liens externes](https://github.com/laurent22/joplin/blob/dev/readme/external_links.md)
-    - [FAQ](https://github.com/laurent22/joplin/blob/dev/readme/faq.md)
+    - [Guide Markdown](https://github.com/Linkosred/Joplin-FR/blob/main/readme/Guide%20Markdown.md)
+    - [Comment activer le chiffrement de bout en bout](https://github.com/Linkosred/Joplin-FR/blob/main/readme/Comment%20activer%20le%20chiffrement%20de%20bout%20en%20bout.md)
+    - [Qu'est-ce qu'un conflit ?](https://github.com/Linkosred/Joplin-FR/blob/main/readme/Qu_est%20ce%20qu_un%20conflit%20_.md)
+    - [Comment activer le mode débogage](https://github.com/Linkosred/Joplin-FR/blob/main/readme/Comment%20activer%20le%20mode%20débogage.md)
+    - [À propos des limites de l'éditeur de texte Rich Text](https://github.com/Linkosred/Joplin-FR/blob/main/readme/A%20propos%20des%20limites%20de%20l_éditeur%20de%20texte%20Rich%20Te.md)
+    - [Liens externes](https://github.com/Linkosred/Joplin-FR/blob/main/readme/Liens%20externes.md)
+    - [FAQ](https://github.com/Linkosred/Joplin-FR/blob/main/readme/FAQ.md)
 - Joplin Cloud
     
-    - [Partager un carnet](https://github.com/laurent22/joplin/blob/dev/readme/share_notebook.md)
-    - [Publier une note](https://github.com/laurent22/joplin/blob/dev/readme/publish_note.md)
+    - [Partager un carnet](https://github.com/Linkosred/Joplin-FR/blob/main/readme/Partager%20un%20cahier.md)
+    - [Publier une note](https://github.com/Linkosred/Joplin-FR/blob/main/readme/Publier%20une%20note.md)
 - Joplin API - Premier pas
     
     - [Présentation de l'API Joplin](https://github.com/laurent22/joplin/blob/dev/readme/api/overview.md)
